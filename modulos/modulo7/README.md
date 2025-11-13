@@ -1,30 +1,30 @@
-# Módulo 7: Aplicaciones de IA Generativa en la Industria
+# MÃ³dulo 7: Aplicaciones de IA Generativa en la Industria
 
-## =Ë Contenido del Módulo
+## =Ã‹ Contenido del MÃ³dulo
 
-1. [Marketing y Creación de Contenido](#marketing-y-creación-de-contenido)
+1. [Marketing y CreaciÃ³n de Contenido](#marketing-y-creaciÃ³n-de-contenido)
 2. [Desarrollo de Software](#desarrollo-de-software)
 3. [Salud y Medicina](#salud-y-medicina)
-4. [Educación](#educación)
+4. [EducaciÃ³n](#educaciÃ³n)
 5. [Finanzas y Sector Legal](#finanzas-y-sector-legal)
 6. [Arte y Entretenimiento](#arte-y-entretenimiento)
 7. [Otras Industrias](#otras-industrias)
-8. [Consideraciones Éticas](#consideraciones-éticas)
+8. [Consideraciones Ã‰ticas](#consideraciones-Ã©ticas)
 
 ---
 
-## Marketing y Creación de Contenido
+## Marketing y CreaciÃ³n de Contenido
 
-La IA Generativa está **revolucionando** la forma en que se crea y distribuye contenido.
+La IA Generativa estÃ¡ **revolucionando** la forma en que se crea y distribuye contenido.
 
 ### Casos de Uso Principales
 
-#### 1. Generación de Copy Publicitario
+#### 1. GeneraciÃ³n de Copy Publicitario
 
 **Herramientas**: ChatGPT, Claude, Jasper, Copy.ai
 
 **Aplicaciones**:
-- Headlines y títulos llamativos
+- Headlines y tÃ­tulos llamativos
 - Descripciones de productos
 - Emails de marketing
 - Anuncios para redes sociales
@@ -32,88 +32,89 @@ La IA Generativa está **revolucionando** la forma en que se crea y distribuye co
 
 **Ejemplo real**:
 ```
-Input: "Zapatos deportivos eco-friendly, hechos con plástico reciclado"
+Input: "Zapatos deportivos eco-friendly, hechos con plÃ¡stico reciclado"
 
 Output IA:
-"< Corre hacia el futuro sostenible
+"<
+ Corre hacia el futuro sostenible
 Cada paso cuenta. Nuestros zapatos deportivos transforman
-80 botellas de plástico en el calzado más cómodo que usarás.
-Rendimiento máximo. Impacto mínimo."
+80 botellas de plÃ¡stico en el calzado mÃ¡s cÃ³modo que usarÃ¡s.
+Rendimiento mÃ¡ximo. Impacto mÃ­nimo."
 ```
 
 **Beneficios**:
 -  Velocidad: De horas a minutos
--  Variaciones: Genera múltiples versiones para A/B testing
--  Personalización: Adapta tono por audiencia
+-  Variaciones: Genera mÃºltiples versiones para A/B testing
+-  PersonalizaciÃ³n: Adapta tono por audiencia
 -  Escalabilidad: Miles de variantes para diferentes segmentos
 
 ---
 
-#### 2. Creación de Contenido para Blogs y SEO
+#### 2. CreaciÃ³n de Contenido para Blogs y SEO
 
 **Herramientas**: GPT-4, Claude, Surfer SEO + IA
 
-**Workflow típico**:
+**Workflow tÃ­pico**:
 1. Research de keywords con IA
-2. Generación de outline
+2. GeneraciÃ³n de outline
 3. Escritura de borrador
-4. Optimización SEO
-5. Edición humana
+4. OptimizaciÃ³n SEO
+5. EdiciÃ³n humana
 
-**Caso de éxito**:
-Una agencia de marketing redujo de **8 horas a 2 horas** el tiempo de creación de un artículo de 2000 palabras, manteniendo calidad.
+**Caso de Ã©xito**:
+Una agencia de marketing redujo de **8 horas a 2 horas** el tiempo de creaciÃ³n de un artÃ­culo de 2000 palabras, manteniendo calidad.
 
-**Mejores prácticas**:
+**Mejores prÃ¡cticas**:
 ```
 L Mal uso:
-"Escribe un artículo sobre IA"
-’ Resultado genérico y superficial
+"Escribe un artÃ­culo sobre IA"
+â€™ Resultado genÃ©rico y superficial
 
  Buen uso:
-"Escribe un artículo de 1500 palabras sobre 'Cómo implementar IA
-en pequeñas empresas manufactureras', incluyendo:
+"Escribe un artÃ­culo de 1500 palabras sobre 'CÃ³mo implementar IA
+en pequeÃ±as empresas manufactureras', incluyendo:
 - 3 casos de estudio reales
 - ROI esperado
-- Obstáculos comunes
+- ObstÃ¡culos comunes
 - Tono: profesional pero accesible
-- Audiencia: CEOs de PYMEs sin conocimiento técnico"
-’ Resultado específico y valioso
+- Audiencia: CEOs de PYMEs sin conocimiento tÃ©cnico"
+â€™ Resultado especÃ­fico y valioso
 ```
 
 ---
 
-#### 3. Generación de Imágenes para Campañas
+#### 3. GeneraciÃ³n de ImÃ¡genes para CampaÃ±as
 
 **Herramientas**: Midjourney, DALL-E, Stable Diffusion, Firefly
 
 **Aplicaciones**:
 - Ads visuales
-- Imágenes de productos (mockups)
+- ImÃ¡genes de productos (mockups)
 - Contenido para redes sociales
 - Banners web
 - Ilustraciones para blogs
 
 **Caso real - Heinz**:
-Heinz utilizó DALL-E para una campaña pidiendo a la IA "dibuja ketchup". Resultado: siempre dibujaba una botella de Heinz, demostrando el poder de su marca.
+Heinz utilizÃ³ DALL-E para una campaÃ±a pidiendo a la IA "dibuja ketchup". Resultado: siempre dibujaba una botella de Heinz, demostrando el poder de su marca.
 
 **Ventajas**:
-- Prototipado rápido de conceptos
-- Sin necesidad de fotógrafos/diseñadores para drafts
-- Iteración instantánea
-- Personalización masiva
+- Prototipado rÃ¡pido de conceptos
+- Sin necesidad de fotÃ³grafos/diseÃ±adores para drafts
+- IteraciÃ³n instantÃ¡nea
+- PersonalizaciÃ³n masiva
 
 ---
 
-#### 4. Personalización a Escala
+#### 4. PersonalizaciÃ³n a Escala
 
 **Caso de uso**: Emails personalizados para 100,000 clientes
 
 ```python
-# Ejemplo de personalización con IA
+# Ejemplo de personalizaciÃ³n con IA
 def personalizar_email(cliente):
     prompt = f"""
     Crea un email personalizado para {cliente['nombre']}, quien:
-    - Compró: {cliente['ultimo_producto']}
+    - ComprÃ³: {cliente['ultimo_producto']}
     - Intereses: {cliente['intereses']}
     - Comportamiento: {cliente['comportamiento']}
 
@@ -128,24 +129,24 @@ for cliente in base_datos:
     enviar_email(cliente['email'], email)
 ```
 
-**ROI típico**:
-- ‘ 35% en tasas de apertura
-- ‘ 50% en click-through rate
-- ‘ 25% en conversiones
+**ROI tÃ­pico**:
+- â€˜ 35% en tasas de apertura
+- â€˜ 50% en click-through rate
+- â€˜ 25% en conversiones
 
 ---
 
 #### 5. Chatbots de Servicio al Cliente
 
-**Implementación moderna**:
+**ImplementaciÃ³n moderna**:
 - LLM base (GPT-4, Claude)
 - RAG sobre base de conocimiento
-- Integración con CRM
-- Escalado automático a humanos cuando necesario
+- IntegraciÃ³n con CRM
+- Escalado automÃ¡tico a humanos cuando necesario
 
-**Métricas de éxito**:
-- 80% de consultas resueltas sin intervención humana
-- Reducción de 60% en tiempo de respuesta
+**MÃ©tricas de Ã©xito**:
+- 80% de consultas resueltas sin intervenciÃ³n humana
+- ReducciÃ³n de 60% en tiempo de respuesta
 - Disponibilidad 24/7
 - Ahorro de $50K-200K anuales en una empresa mediana
 
@@ -153,39 +154,39 @@ for cliente in base_datos:
 
 ### Herramientas Especializadas de Marketing
 
-| Herramienta | Función Principal | Precio |
+| Herramienta | FunciÃ³n Principal | Precio |
 |-------------|-------------------|--------|
 | **Jasper** | Copy publicitario | $49-125/mes |
-| **Copy.ai** | Generación de copy | $49/mes |
-| **Writesonic** | Artículos y ads | $19-499/mes |
-| **Canva AI** | Diseño visual | Gratis-$30/mes |
-| **Surfer SEO** | Optimización SEO | $89-239/mes |
+| **Copy.ai** | GeneraciÃ³n de copy | $49/mes |
+| **Writesonic** | ArtÃ­culos y ads | $19-499/mes |
+| **Canva AI** | DiseÃ±o visual | Gratis-$30/mes |
+| **Surfer SEO** | OptimizaciÃ³n SEO | $89-239/mes |
 
 ---
 
 ## Desarrollo de Software
 
-La IA Generativa está **transformando** cómo se escribe código.
+La IA Generativa estÃ¡ **transformando** cÃ³mo se escribe cÃ³digo.
 
-### 1. Asistentes de Código (Copilots)
+### 1. Asistentes de CÃ³digo (Copilots)
 
 **GitHub Copilot**
-- 46% del código escrito con Copilot (promedio)
-- 55% más rápido en tareas de coding
-- Excelente para: boilerplate, tests, documentación
+- 46% del cÃ³digo escrito con Copilot (promedio)
+- 55% mÃ¡s rÃ¡pido en tareas de coding
+- Excelente para: boilerplate, tests, documentaciÃ³n
 
 **Caso de estudio - Shopify**:
-- Reducción de 15% en tiempo de desarrollo
-- Mayor satisfacción de desarrolladores
-- Menos bugs en código repetitivo
+- ReducciÃ³n de 15% en tiempo de desarrollo
+- Mayor satisfacciÃ³n de desarrolladores
+- Menos bugs en cÃ³digo repetitivo
 
 **Uso efectivo**:
 ```python
-# Comentario descriptivo ’ Copilot genera código
-# Función para validar email y enviar código de verificación
+# Comentario descriptivo â€™ Copilot genera cÃ³digo
+# FunciÃ³n para validar email y enviar cÃ³digo de verificaciÃ³n
 # Debe manejar errores y reintentos
 
-# Copilot generará:
+# Copilot generarÃ¡:
 import re
 import smtplib
 from email.message import EmailMessage
@@ -194,9 +195,9 @@ def validar_y_enviar_verificacion(email, max_reintentos=3):
     # Validar formato
     patron = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     if not re.match(patron, email):
-        raise ValueError("Email inválido")
+        raise ValueError("Email invÃ¡lido")
 
-    # Generar código
+    # Generar cÃ³digo
     codigo = generar_codigo_aleatorio()
 
     # Enviar con reintentos
@@ -212,13 +213,13 @@ def validar_y_enviar_verificacion(email, max_reintentos=3):
 
 ---
 
-### 2. Generación de Tests
+### 2. GeneraciÃ³n de Tests
 
 **Antes**: 3-4 horas escribiendo tests
-**Con IA**: 30 minutos + revisión
+**Con IA**: 30 minutos + revisiÃ³n
 
 ```python
-# Código original
+# CÃ³digo original
 def calcular_precio_final(precio_base, descuento, impuesto, es_miembro=False):
     """Calcula precio final con descuentos e impuestos."""
     if es_miembro:
@@ -229,7 +230,7 @@ def calcular_precio_final(precio_base, descuento, impuesto, es_miembro=False):
 
     return round(precio_final, 2)
 
-# Prompt para IA: "Genera tests completos para esta función"
+# Prompt para IA: "Genera tests completos para esta funciÃ³n"
 
 # IA genera:
 import pytest
@@ -251,17 +252,17 @@ class TestCalcularPrecioFinal:
         with pytest.raises(ValueError):
             calcular_precio_final(-100, 0.1, 0.15)
 
-    # ... más tests
+    # ... mÃ¡s tests
 ```
 
 ---
 
-### 3. Documentación Automática
+### 3. DocumentaciÃ³n AutomÃ¡tica
 
-**De código a docs en segundos**:
+**De cÃ³digo a docs en segundos**:
 
 ```python
-# Input: Función sin documentar
+# Input: FunciÃ³n sin documentar
 def process_user_data(data, filters=None, sort_by=None):
     validated = validate_schema(data)
     if filters:
@@ -270,14 +271,14 @@ def process_user_data(data, filters=None, sort_by=None):
         validated = sort_data(validated, sort_by)
     return transform_output(validated)
 
-# Prompt: "Documenta esta función estilo Google docstring"
+# Prompt: "Documenta esta funciÃ³n estilo Google docstring"
 
 # Output IA:
 def process_user_data(data, filters=None, sort_by=None):
     """
-    Procesa y transforma datos de usuario con validación, filtrado y ordenamiento.
+    Procesa y transforma datos de usuario con validaciÃ³n, filtrado y ordenamiento.
 
-    Este función realiza un pipeline completo de procesamiento de datos:
+    Este funciÃ³n realiza un pipeline completo de procesamiento de datos:
     1. Valida el esquema de datos
     2. Aplica filtros opcionales
     3. Ordena resultados
@@ -288,14 +289,14 @@ def process_user_data(data, filters=None, sort_by=None):
         filters (dict, optional): Diccionario de filtros a aplicar.
             Formato: {'campo': 'valor'}. Por defecto None.
         sort_by (str, optional): Campo por el cual ordenar.
-            Acepta cualquier campo válido del esquema. Por defecto None.
+            Acepta cualquier campo vÃ¡lido del esquema. Por defecto None.
 
     Returns:
         list: Lista de registros procesados y transformados.
 
     Raises:
         ValidationError: Si los datos no cumplen el esquema.
-        FilterError: Si los filtros son inválidos.
+        FilterError: Si los filtros son invÃ¡lidos.
 
     Example:
         >>> data = {'users': [...]}
@@ -320,20 +321,20 @@ def process_user_data(data, filters=None, sort_by=None):
 
 **Ejemplo**:
 ```python
-# Código con issues
+# CÃ³digo con issues
 def get_user(user_id):
     query = f"SELECT * FROM users WHERE id = {user_id}"  # L SQL Injection
     return db.execute(query)
 
 # IA detecta:
 """
-  Vulnerabilidad de Seguridad: SQL Injection
-Línea 2: Interpolación de string en query SQL
+Â  Vulnerabilidad de Seguridad: SQL Injection
+LÃ­nea 2: InterpolaciÃ³n de string en query SQL
 
 Riesgo: Alto
 Impacto: Acceso no autorizado a base de datos
 
-Solución recomendada:
+SoluciÃ³n recomendada:
 def get_user(user_id):
     query = "SELECT * FROM users WHERE id = ?"
     return db.execute(query, (user_id,))
@@ -342,11 +343,11 @@ def get_user(user_id):
 
 ---
 
-### 5. Refactoring y Optimización
+### 5. Refactoring y OptimizaciÃ³n
 
 **Prompt efectivo**:
 ```
-"Refactoriza este código para:
+"Refactoriza este cÃ³digo para:
 1. Mejorar legibilidad
 2. Aplicar SOLID principles
 3. Optimizar rendimiento
@@ -354,20 +355,20 @@ def get_user(user_id):
 5. Manejar edge cases"
 ```
 
-**Resultado**: Código más limpio, mantenible y robusto
+**Resultado**: CÃ³digo mÃ¡s limpio, mantenible y robusto
 
 ---
 
 ### Impacto en la Industria
 
-**Estadísticas**:
-- 55% más rápido en completar tareas (GitHub)
-- 88% de desarrolladores más productivos
-- 74% se enfocan en trabajo más satisfactorio
-- Reducción de burnout
+**EstadÃ­sticas**:
+- 55% mÃ¡s rÃ¡pido en completar tareas (GitHub)
+- 88% de desarrolladores mÃ¡s productivos
+- 74% se enfocan en trabajo mÃ¡s satisfactorio
+- ReducciÃ³n de burnout
 
 **Nuevos roles emergentes**:
-- Prompt Engineer para código
+- Prompt Engineer para cÃ³digo
 - AI-Assisted Developer
 - Code Reviewer especializado en IA
 
@@ -375,147 +376,147 @@ def get_user(user_id):
 
 ## Salud y Medicina
 
-**Advertencia**: IA en medicina requiere validación rigurosa y supervisión médica.
+**Advertencia**: IA en medicina requiere validaciÃ³n rigurosa y supervisiÃ³n mÃ©dica.
 
-### 1. Diagnóstico Asistido por IA
+### 1. DiagnÃ³stico Asistido por IA
 
 **Aplicaciones**:
-- Análisis de imágenes médicas (rayos X, MRI, CT)
-- Detección temprana de cáncer
-- Análisis de patrones en datos de pacientes
+- AnÃ¡lisis de imÃ¡genes mÃ©dicas (rayos X, MRI, CT)
+- DetecciÃ³n temprana de cÃ¡ncer
+- AnÃ¡lisis de patrones en datos de pacientes
 
-**Caso de éxito - Google Health**:
-- IA detecta cáncer de mama con 99% de precisión
+**Caso de Ã©xito - Google Health**:
+- IA detecta cÃ¡ncer de mama con 99% de precisiÃ³n
 - Reduce falsos positivos en 5.7%
 - Reduce falsos negativos en 9.4%
 
 ---
 
-### 2. Generación de Informes Médicos
+### 2. GeneraciÃ³n de Informes MÃ©dicos
 
 ```
 Input: Datos del paciente + resultados de tests
-Output: Informe médico estructurado (draft)
+Output: Informe mÃ©dico estructurado (draft)
 
-’ Ahorro de 30-45 minutos por paciente
-’ Médicos revisan y aprueban
-’ Más tiempo con pacientes
+â€™ Ahorro de 30-45 minutos por paciente
+â€™ MÃ©dicos revisan y aprueban
+â€™ MÃ¡s tiempo con pacientes
 ```
 
 ---
 
-### 3. Investigación y Desarrollo de Fármacos
+### 3. InvestigaciÃ³n y Desarrollo de FÃ¡rmacos
 
 **AlphaFold (DeepMind)**:
-- Predice estructura 3D de proteínas
-- Aceleró investigación años ’ meses
+- Predice estructura 3D de proteÃ­nas
+- AcelerÃ³ investigaciÃ³n aÃ±os â€™ meses
 - Descubrimiento de nuevos tratamientos
 
-**IA Generativa en moléculas**:
-- Genera candidatos a fármacos
+**IA Generativa en molÃ©culas**:
+- Genera candidatos a fÃ¡rmacos
 - Optimiza propiedades moleculares
-- Reduce tiempo de R&D de 10+ años a 3-5 años
+- Reduce tiempo de R&D de 10+ aÃ±os a 3-5 aÃ±os
 
 ---
 
 ### 4. Asistentes Virtuales de Salud
 
 **Funciones**:
-- Triaje inicial de síntomas
-- Recordatorios de medicación
+- Triaje inicial de sÃ­ntomas
+- Recordatorios de medicaciÃ³n
 - Respuestas a preguntas generales
-- Soporte de salud mental (chatbots terapéuticos)
+- Soporte de salud mental (chatbots terapÃ©uticos)
 
-**Importante**: No reemplazan médicos, son herramientas complementarias
+**Importante**: No reemplazan mÃ©dicos, son herramientas complementarias
 
 ---
 
-### 5. Educación Médica
+### 5. EducaciÃ³n MÃ©dica
 
-- Simulaciones de casos clínicos
-- Generación de escenarios de práctica
-- Personalización de aprendizaje
+- Simulaciones de casos clÃ­nicos
+- GeneraciÃ³n de escenarios de prÃ¡ctica
+- PersonalizaciÃ³n de aprendizaje
 - Evaluaciones adaptativas
 
 ---
 
-## Educación
+## EducaciÃ³n
 
-La IA está **personalizando** la educación a escala.
+La IA estÃ¡ **personalizando** la educaciÃ³n a escala.
 
 ### 1. Tutores Personalizados 24/7
 
 **Khan Academy + GPT-4**:
 - Tutor personalizado para cada estudiante
-- Explica conceptos de múltiples formas
+- Explica conceptos de mÃºltiples formas
 - Se adapta al ritmo de aprendizaje
 - Feedback inmediato
 
-**Ejemplo de interacción**:
+**Ejemplo de interacciÃ³n**:
 ```
-Estudiante: "No entiendo cómo funciona la fotosíntesis"
+Estudiante: "No entiendo cÃ³mo funciona la fotosÃ­ntesis"
 
 IA Tutor:
-"¡Claro! Vamos a explicarlo paso a paso.
+"Â¡Claro! Vamos a explicarlo paso a paso.
 
-Imagina que la planta es una fábrica solar...
-[Explicación adaptada al nivel]
+Imagina que la planta es una fÃ¡brica solar...
+[ExplicaciÃ³n adaptada al nivel]
 
-¿Qué parte te gustaría que profundicemos?"
+Â¿QuÃ© parte te gustarÃ­a que profundicemos?"
 
 Estudiante: "La parte de la clorofila"
 
-IA: [Explicación específica sobre clorofila]
+IA: [ExplicaciÃ³n especÃ­fica sobre clorofila]
 
-¿Quieres que creemos un diagrama juntos?"
+Â¿Quieres que creemos un diagrama juntos?"
 ```
 
 ---
 
-### 2. Generación de Contenido Educativo
+### 2. GeneraciÃ³n de Contenido Educativo
 
 **Para profesores**:
-- Planes de lección personalizados
+- Planes de lecciÃ³n personalizados
 - Ejercicios diferenciados por nivel
-- Rúbricas de evaluación
-- Material visual (diagramas, infografías)
+- RÃºbricas de evaluaciÃ³n
+- Material visual (diagramas, infografÃ­as)
 
 **Ejemplo**:
 ```
-Prompt: "Crea una lección de 45 minutos sobre la Revolución Francesa
-para estudiantes de 14 años, incluyendo:
+Prompt: "Crea una lecciÃ³n de 45 minutos sobre la RevoluciÃ³n Francesa
+para estudiantes de 14 aÃ±os, incluyendo:
 - Objetivos de aprendizaje
 - Actividad de apertura
 - Contenido principal con ejemplos
-- Actividad práctica
-- Evaluación formativa"
+- Actividad prÃ¡ctica
+- EvaluaciÃ³n formativa"
 
-’ IA genera lección completa en minutos
-’ Profesor personaliza y refina
+â€™ IA genera lecciÃ³n completa en minutos
+â€™ Profesor personaliza y refina
 ```
 
 ---
 
-### 3. Evaluación y Feedback Automatizado
+### 3. EvaluaciÃ³n y Feedback Automatizado
 
 **Ensayos y redacciones**:
-- Corrección gramatical
-- Análisis de estructura
-- Evaluación de argumentación
+- CorrecciÃ³n gramatical
+- AnÃ¡lisis de estructura
+- EvaluaciÃ³n de argumentaciÃ³n
 - Sugerencias de mejora
-- Detección de plagio
+- DetecciÃ³n de plagio
 
-**Beneficio**: Feedback instantáneo vs. días de espera
+**Beneficio**: Feedback instantÃ¡neo vs. dÃ­as de espera
 
 ---
 
-### 4. Traducción y Accesibilidad
+### 4. TraducciÃ³n y Accesibilidad
 
-- Traducción de materiales a múltiples idiomas
-- Generación de subtítulos
-- Conversión texto-a-voz
-- Simplificación de textos complejos
-- Adaptación para diferentes necesidades
+- TraducciÃ³n de materiales a mÃºltiples idiomas
+- GeneraciÃ³n de subtÃ­tulos
+- ConversiÃ³n texto-a-voz
+- SimplificaciÃ³n de textos complejos
+- AdaptaciÃ³n para diferentes necesidades
 
 ---
 
@@ -524,27 +525,27 @@ para estudiantes de 14 años, incluyendo:
 **Duolingo Max (GPT-4)**:
 - Conversaciones realistas
 - Explicaciones de errores
-- Práctica contextual
+- PrÃ¡ctica contextual
 - Feedback personalizado
 
-**Ventaja**: Práctica ilimitada sin presión social
+**Ventaja**: PrÃ¡ctica ilimitada sin presiÃ³n social
 
 ---
 
 ### Consideraciones Importantes
 
-  **Desafíos**:
+Â  **DesafÃ­os**:
 - Dependencia excesiva de IA
-- Habilidades de pensamiento crítico
+- Habilidades de pensamiento crÃ­tico
 - Brecha digital
 - Privacidad de datos estudiantiles
-- Necesidad de supervisión humana
+- Necesidad de supervisiÃ³n humana
 
- **Mejores prácticas**:
+ **Mejores prÃ¡cticas**:
 - IA como herramienta, no reemplazo
-- Desarrollar alfabetización en IA
-- Enseñar a usar IA éticamente
-- Mantener interacción humana
+- Desarrollar alfabetizaciÃ³n en IA
+- EnseÃ±ar a usar IA Ã©ticamente
+- Mantener interacciÃ³n humana
 
 ---
 
@@ -552,19 +553,19 @@ para estudiantes de 14 años, incluyendo:
 
 ### Finanzas
 
-#### 1. Análisis de Mercado y Trading
+#### 1. AnÃ¡lisis de Mercado y Trading
 
 **Aplicaciones**:
-- Análisis de sentimiento de noticias
-- Generación de reportes financieros
+- AnÃ¡lisis de sentimiento de noticias
+- GeneraciÃ³n de reportes financieros
 - Resumen de earnings calls
-- Detección de anomalías
+- DetecciÃ³n de anomalÃ­as
 
 **Ejemplo - Bloomberg GPT**:
 - LLM entrenado en datos financieros
-- Análisis de reportes
-- Predicción de tendencias
-- Generación de insights
+- AnÃ¡lisis de reportes
+- PredicciÃ³n de tendencias
+- GeneraciÃ³n de insights
 
 ---
 
@@ -573,43 +574,43 @@ para estudiantes de 14 años, incluyendo:
 **Chatbots bancarios modernos**:
 - Consultas de saldo
 - Transacciones simples
-- Asesoría financiera básica
-- Detección de fraude
+- AsesorÃ­a financiera bÃ¡sica
+- DetecciÃ³n de fraude
 
 **Resultados**:
-- 80% de consultas resueltas automáticamente
-- Reducción de costos operativos
-- Satisfacción del cliente mejorada
+- 80% de consultas resueltas automÃ¡ticamente
+- ReducciÃ³n de costos operativos
+- SatisfacciÃ³n del cliente mejorada
 
 ---
 
-#### 3. Evaluación de Riesgo Crediticio
+#### 3. EvaluaciÃ³n de Riesgo Crediticio
 
-- Análisis de historial
-- Predicción de default
-- Personalización de ofertas
-- Detección de fraude en tiempo real
+- AnÃ¡lisis de historial
+- PredicciÃ³n de default
+- PersonalizaciÃ³n de ofertas
+- DetecciÃ³n de fraude en tiempo real
 
 ---
 
 ### Sector Legal
 
-#### 1. Revisión de Documentos
+#### 1. RevisiÃ³n de Documentos
 
 **Antes**: 40 horas revisando contratos
-**Con IA**: 4 horas + revisión humana
+**Con IA**: 4 horas + revisiÃ³n humana
 
 **Herramientas**: Harvey (GPT-4 para legal), Luminance, Kira
 
 **Aplicaciones**:
 - Due diligence
-- Análisis de contratos
-- Identificación de cláusulas riesgosas
-- Comparación de versiones
+- AnÃ¡lisis de contratos
+- IdentificaciÃ³n de clÃ¡usulas riesgosas
+- ComparaciÃ³n de versiones
 
 ---
 
-#### 2. Investigación Legal (Legal Research)
+#### 2. InvestigaciÃ³n Legal (Legal Research)
 
 ```
 Prompt: "Encuentra precedentes sobre privacidad de datos
@@ -623,30 +624,30 @@ IA:
 
 Abogado:
 - Verifica resultados
-- Añade análisis experto
-- Construye argumentación
+- AÃ±ade anÃ¡lisis experto
+- Construye argumentaciÃ³n
 ```
 
 ---
 
-#### 3. Generación de Documentos Legales
+#### 3. GeneraciÃ³n de Documentos Legales
 
 **Drafting asistido**:
-- Contratos estándar
+- Contratos estÃ¡ndar
 - Cartas legales
 - Memorandums
 - Respuestas a discovery
 
-**Importante**: Siempre con revisión de abogado humano
+**Importante**: Siempre con revisiÃ³n de abogado humano
 
 ---
 
-#### 4. Predicción de Resultados
+#### 4. PredicciÃ³n de Resultados
 
-- Análisis de probabilidad de ganar casos
-- Estimación de rangos de sentencias
-- Estrategia de litigación
-- Valoración de acuerdos
+- AnÃ¡lisis de probabilidad de ganar casos
+- EstimaciÃ³n de rangos de sentencias
+- Estrategia de litigaciÃ³n
+- ValoraciÃ³n de acuerdos
 
 ---
 
@@ -656,57 +657,57 @@ Abogado:
 
 **Aplicaciones actuales**:
 
-**Pre-producción**:
-- Generación de storyboards (Midjourney)
+**Pre-producciÃ³n**:
+- GeneraciÃ³n de storyboards (Midjourney)
 - Concept art
-- Visualización de escenas
+- VisualizaciÃ³n de escenas
 - Casting virtual
 
-**Producción**:
+**ProducciÃ³n**:
 - Efectos visuales mejorados
 - De-aging de actores
-- Eliminación de objetos/personas
-- Extensión de sets virtuales
+- EliminaciÃ³n de objetos/personas
+- ExtensiÃ³n de sets virtuales
 
-**Post-producción**:
-- Edición asistida por IA
-- Color grading automático
-- Generación de múltiples cortes
-- Subtítulos automáticos
+**Post-producciÃ³n**:
+- EdiciÃ³n asistida por IA
+- Color grading automÃ¡tico
+- GeneraciÃ³n de mÃºltiples cortes
+- SubtÃ­tulos automÃ¡ticos
 
 **Caso - The Mandalorian**:
-Uso de Unreal Engine + IA para crear mundos virtuales en tiempo real, reduciendo costos de locación.
+Uso de Unreal Engine + IA para crear mundos virtuales en tiempo real, reduciendo costos de locaciÃ³n.
 
 ---
 
-### 2. Música
+### 2. MÃºsica
 
-**Composición**:
+**ComposiciÃ³n**:
 - **Suno**: Genera canciones completas con letra
-- **MusicLM**: Música desde descripciones de texto
-- **AIVA**: Composición orquestal
+- **MusicLM**: MÃºsica desde descripciones de texto
+- **AIVA**: ComposiciÃ³n orquestal
 
-**Producción**:
-- Mezcla y masterización automática
-- Separación de stems
-- Generación de variaciones
-- Síntesis de instrumentos
+**ProducciÃ³n**:
+- Mezcla y masterizaciÃ³n automÃ¡tica
+- SeparaciÃ³n de stems
+- GeneraciÃ³n de variaciones
+- SÃ­ntesis de instrumentos
 
 **Ejemplo de uso**:
 ```
-Prompt: "Crea una canción indie-pop sobre superar el miedo,
+Prompt: "Crea una canciÃ³n indie-pop sobre superar el miedo,
 tempo 120 bpm, voz femenina, acordes: Am-F-C-G"
 
-’ Suno genera canción completa en 2 minutos
+â€™ Suno genera canciÃ³n completa en 2 minutos
 ```
 
 ---
 
 ### 3. Gaming
 
-**Generación de Contenido**:
+**GeneraciÃ³n de Contenido**:
 - Niveles procedurales
-- NPCs con diálogos dinámicos
+- NPCs con diÃ¡logos dinÃ¡micos
 - Texturas y assets
 - Narrativas ramificadas
 
@@ -721,19 +722,19 @@ Juego de aventuras con narrativa completamente generada por IA.
 
 ---
 
-### 4. Diseño Gráfico
+### 4. DiseÃ±o GrÃ¡fico
 
 **Aplicaciones**:
 - Logos y branding
 - Ilustraciones editoriales
-- Diseño de productos
+- DiseÃ±o de productos
 - Mockups y prototipos
 
 **Workflow moderno**:
 1. IA genera conceptos (Midjourney)
-2. Diseñador refina en Photoshop/Illustrator
+2. DiseÃ±ador refina en Photoshop/Illustrator
 3. IA sugiere variaciones
-4. Iteración humano-IA
+4. IteraciÃ³n humano-IA
 5. Resultado final
 
 ---
@@ -743,12 +744,12 @@ Juego de aventuras con narrativa completamente generada por IA.
 **Asistencia en escritura**:
 - Brainstorming de ideas
 - Desarrollo de personajes
-- Generación de diálogos
-- Superación de bloqueo creativo
+- GeneraciÃ³n de diÃ¡logos
+- SuperaciÃ³n de bloqueo creativo
 
 **Libros generados con IA**:
 - Algunos ya en Amazon
-- Controversia sobre autoría
+- Controversia sobre autorÃ­a
 - Debate sobre creatividad humana
 
 **Mejor uso**: Herramienta colaborativa, no reemplazo
@@ -759,106 +760,106 @@ Juego de aventuras con narrativa completamente generada por IA.
 
 ### Agricultura
 
-- Optimización de cultivos
-- Predicción de plagas
-- Análisis de imágenes satelitales
-- Gestión de recursos hídricos
+- OptimizaciÃ³n de cultivos
+- PredicciÃ³n de plagas
+- AnÃ¡lisis de imÃ¡genes satelitales
+- GestiÃ³n de recursos hÃ­dricos
 
 ### Retail
 
-- Personalización de recomendaciones
-- Optimización de inventario
-- Diseño de layouts de tienda
-- Chatbots de atención
+- PersonalizaciÃ³n de recomendaciones
+- OptimizaciÃ³n de inventario
+- DiseÃ±o de layouts de tienda
+- Chatbots de atenciÃ³n
 
 ### Manufactura
 
-- Optimización de procesos
+- OptimizaciÃ³n de procesos
 - Mantenimiento predictivo
 - Control de calidad visual
-- Diseño de productos
+- DiseÃ±o de productos
 
 ### Recursos Humanos
 
 - Screening de CVs
-- Generación de descripciones de puesto
+- GeneraciÃ³n de descripciones de puesto
 - Entrevistas iniciales con bots
 - Onboarding personalizado
 
-### Bienes Raíces
+### Bienes RaÃ­ces
 
 - Descripciones de propiedades
 - Tours virtuales mejorados
-- Valoración automatizada
+- ValoraciÃ³n automatizada
 - Chatbots para consultas
 
 ---
 
-## Consideraciones Éticas
+## Consideraciones Ã‰ticas
 
 ### 1. Transparencia
 
-**Obligación de divulgar**:
-- ¿El contenido fue generado por IA?
-- En contextos legales, médicos, financieros: **siempre**
+**ObligaciÃ³n de divulgar**:
+- Â¿El contenido fue generado por IA?
+- En contextos legales, mÃ©dicos, financieros: **siempre**
 - En marketing: depende, pero aumenta la transparencia
 
 ---
 
-### 2. Bias y Discriminación
+### 2. Bias y DiscriminaciÃ³n
 
 **Problema**: IA puede perpetuar sesgos existentes
 
 **Ejemplos**:
-- Modelos de crédito discriminatorios
-- Sesgos en contratación
-- Representación desigual en imágenes generadas
+- Modelos de crÃ©dito discriminatorios
+- Sesgos en contrataciÃ³n
+- RepresentaciÃ³n desigual en imÃ¡genes generadas
 
 **Soluciones**:
-- Auditorías de bias
+- AuditorÃ­as de bias
 - Datasets diversos
 - Testing con grupos diversos
-- Supervisión humana
+- SupervisiÃ³n humana
 
 ---
 
 ### 3. Propiedad Intelectual
 
 **Preguntas abiertas**:
-- ¿Quién es dueño del contenido generado por IA?
-- ¿Es legal entrenar modelos con datos protegidos?
-- ¿Se puede patentar/copyright contenido de IA?
+- Â¿QuiÃ©n es dueÃ±o del contenido generado por IA?
+- Â¿Es legal entrenar modelos con datos protegidos?
+- Â¿Se puede patentar/copyright contenido de IA?
 
 **Estado actual**:
-- Regulación en evolución
+- RegulaciÃ³n en evoluciÃ³n
 - Casos legales en curso
-- Políticas variando por país
+- PolÃ­ticas variando por paÃ­s
 
 ---
 
-### 4. Desinformación
+### 4. DesinformaciÃ³n
 
 **Riesgos**:
 - Deepfakes convincentes
 - Noticias falsas a escala
-- Manipulación de opinión pública
-- Suplantación de identidad
+- ManipulaciÃ³n de opiniÃ³n pÃºblica
+- SuplantaciÃ³n de identidad
 
 **Mitigaciones**:
 - Marcas de agua en contenido generado
-- Herramientas de detección
-- Educación pública
-- Regulación responsable
+- Herramientas de detecciÃ³n
+- EducaciÃ³n pÃºblica
+- RegulaciÃ³n responsable
 
 ---
 
 ### 5. Impacto Laboral
 
 **Trabajos en riesgo**:
-- Creación de contenido repetitivo
-- Diseño gráfico básico
-- Programación rutinaria
-- Traducción simple
+- CreaciÃ³n de contenido repetitivo
+- DiseÃ±o grÃ¡fico bÃ¡sico
+- ProgramaciÃ³n rutinaria
+- TraducciÃ³n simple
 - Soporte al cliente nivel 1
 
 **Nuevas oportunidades**:
@@ -867,21 +868,21 @@ Juego de aventuras con narrativa completamente generada por IA.
 - AI Ethics Officers
 - AI-Human Collaboration Specialists
 
-**Recomendación**: Aprender a usar IA como herramienta multiplicadora
+**RecomendaciÃ³n**: Aprender a usar IA como herramienta multiplicadora
 
 ---
 
 ### 6. Privacidad de Datos
 
 **Preocupaciones**:
-- ¿Qué datos se usan para entrenar?
-- ¿Dónde se almacenan nuestras conversaciones?
-- ¿Se pueden extraer datos privados de modelos?
+- Â¿QuÃ© datos se usan para entrenar?
+- Â¿DÃ³nde se almacenan nuestras conversaciones?
+- Â¿Se pueden extraer datos privados de modelos?
 
-**Buenas prácticas**:
-- No compartir información sensible con IAs públicas
+**Buenas prÃ¡cticas**:
+- No compartir informaciÃ³n sensible con IAs pÃºblicas
 - Usar opciones on-premise para datos confidenciales
-- Revisar políticas de privacidad
+- Revisar polÃ­ticas de privacidad
 - Implementar data governance
 
 ---
@@ -889,30 +890,30 @@ Juego de aventuras con narrativa completamente generada por IA.
 ### 7. Uso Responsable
 
 **Principios**:
-1. **No hacer daño**: Considerar impacto negativo
+1. **No hacer daÃ±o**: Considerar impacto negativo
 2. **Transparencia**: Ser claro sobre uso de IA
 3. **Accountability**: Humanos responsables de resultados
-4. **Fairness**: Evitar discriminación
+4. **Fairness**: Evitar discriminaciÃ³n
 5. **Privacidad**: Proteger datos personales
 6. **Sostenibilidad**: Considerar huella de carbono
 
 ---
 
-## <¯ Resumen del Módulo
+## <Â¯ Resumen del MÃ³dulo
 
-En este módulo has explorado:
+En este mÃ³dulo has explorado:
 
- **Marketing**: Generación de contenido, personalización, chatbots
- **Desarrollo**: Copilots, generación de código, documentación
- **Salud**: Diagnóstico asistido, investigación, educación médica
- **Educación**: Tutores personalizados, contenido adaptativo
- **Finanzas y Legal**: Análisis, revisión de documentos, research
- **Arte y Entretenimiento**: Cine, música, gaming, diseño
- **Consideraciones éticas**: Transparencia, bias, privacidad, impacto laboral
+ **Marketing**: GeneraciÃ³n de contenido, personalizaciÃ³n, chatbots
+ **Desarrollo**: Copilots, generaciÃ³n de cÃ³digo, documentaciÃ³n
+ **Salud**: DiagnÃ³stico asistido, investigaciÃ³n, educaciÃ³n mÃ©dica
+ **EducaciÃ³n**: Tutores personalizados, contenido adaptativo
+ **Finanzas y Legal**: AnÃ¡lisis, revisiÃ³n de documentos, research
+ **Arte y Entretenimiento**: Cine, mÃºsica, gaming, diseÃ±o
+ **Consideraciones Ã©ticas**: Transparencia, bias, privacidad, impacto laboral
 
 ---
 
-## =Ú Recursos Adicionales
+## =Ãš Recursos Adicionales
 
 ### Reports y Estudios
 - [McKinsey: Economic Potential of Generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier)
@@ -924,50 +925,51 @@ En este módulo has explorado:
 - Anthropic Use Cases
 - Google AI Case Studies
 
-### Ética en IA
+### Ã‰tica en IA
 - [Partnership on AI](https://partnershiponai.org/)
 - [AI Ethics Guidelines](https://www.unesco.org/en/artificial-intelligence/recommendation-ethics)
 
 ---
 
-##  Ejercicios de Reflexión
+##  Ejercicios de ReflexiÃ³n
 
 1. Identifica 3 aplicaciones de IA en tu industria actual
-2. Analiza un caso de uso desde perspectiva ética
-3. Propón cómo tu empresa/proyecto podría beneficiarse de IA Generativa
-4. Diseña un workflow que combine IA y expertise humano
-5. Investiga regulaciones de IA en tu país
+2. Analiza un caso de uso desde perspectiva Ã©tica
+3. PropÃ³n cÃ³mo tu empresa/proyecto podrÃ­a beneficiarse de IA Generativa
+4. DiseÃ±a un workflow que combine IA y expertise humano
+5. Investiga regulaciones de IA en tu paÃ­s
 
 ---
 
-## <“ Conclusión del Curso
+## <â€œ ConclusiÃ³n del Curso
 
-**¡Felicitaciones!** Has completado el Curso de IA Generativa.
+**Â¡Felicitaciones!** Has completado el Curso de IA Generativa.
 
 ### Lo que has aprendido:
 
-1.  Fundamentos sólidos de IA y ML
-2.  Comprensión profunda de IA Generativa
+1.  Fundamentos sÃ³lidos de IA y ML
+2.  ComprensiÃ³n profunda de IA Generativa
 3.  Dominio de herramientas principales
-4.  Habilidades técnicas con Python y librerías
-5.  Experiencia práctica con proyectos reales
-6.  Visión de aplicaciones industriales
-7.  Conciencia ética y responsable
+4.  Habilidades tÃ©cnicas con Python y librerÃ­as
+5.  Experiencia prÃ¡ctica con proyectos reales
+6.  VisiÃ³n de aplicaciones industriales
+7.  Conciencia Ã©tica y responsable
 
-### Próximos pasos:
+### PrÃ³ximos pasos:
 
-=€ **Practica**: Construye proyectos propios
-=Ú **Aprende**: Mantente actualizado (campo evoluciona rápidamente)
-> **Comparte**: Únete a comunidades de IA
-=¼ **Aplica**: Implementa IA en tu trabajo/negocio
-<“ **Especializa**: Profundiza en áreas de tu interés
+**Practica**: Construye proyectos propios
+**Aprende**: Mantente actualizado (campo evoluciona rÃ¡pidamente)
+**Comparte**: Ãšnete a comunidades de IA
+**Aplica**: Implementa IA en tu trabajo/negocio
+**Especializa**: Profundiza en Ã¡reas de tu interÃ©s
 
 ### Recursos para continuar:
 
 **Comunidades**:
-- Reddit: r/MachineLearning, r/OpenAI, r/LocalLLaMA
+- Reddit: MachineLearning, OpenAI, LocalLLaMA
 - Discord: Hugging Face, Stable Diffusion, FastAI
-- Twitter: Sigue líderes de opinión en IA
+- Twitter: Sigue lÃ­deres de opiniÃ³n en IA
+- Tertulias IA (EnvÃ­ame un mensaje y te agrego al grupo de WSP)
 
 **Newsletters**:
 - The Batch (Andrew Ng)
@@ -979,27 +981,29 @@ En este módulo has explorado:
 - Lex Fridman Podcast
 - TWIML AI Podcast
 - Eye on AI
+- Me lleva el algoritmo
 
 **Continuar aprendiendo**:
 - Coursera: Deep Learning Specialization
 - Fast.ai: Practical Deep Learning
 - Hugging Face Course
 - Stanford CS224N (NLP)
+- www.tucadis.cl
 
 ---
 
-## < Mensaje Final
+## Mensaje Final
 
-La IA Generativa está apenas comenzando. Estás en el momento perfecto para aprender y aplicar estas tecnologías.
+La IA Generativa estÃ¡ apenas comenzando. EstÃ¡s en el momento perfecto para aprender y aplicar estas tecnologÃ­as.
 
 **Recuerda**:
 - La IA es una **herramienta**, no un reemplazo del ingenio humano
-- El pensamiento crítico y la creatividad humana son **irreemplazables**
-- Usa IA de forma **ética y responsable**
+- El pensamiento crÃ­tico y la creatividad humana son **irreemplazables**
+- Usa IA de forma **Ã©tica y responsable**
 - **Nunca dejes de aprender** - el campo evoluciona constantemente
 
-**¡Éxito en tu viaje con IA Generativa!** =€
+**Â¡Ã‰xito en tu viaje con IA Generativa!**
 
 ---
 
-[ Volver al Módulo 6](../modulo6/README.md) | [ Volver al inicio](../../README.md)
+[ Volver al MÃ³dulo 6](../modulo6/README.md) | [ Volver al inicio](../../README.md)
