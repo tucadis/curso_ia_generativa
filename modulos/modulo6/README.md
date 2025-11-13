@@ -1,17 +1,17 @@
-# MÛdulo 6: Ejemplos Pr·cticos
+# M√≥dulo 6: Ejemplos Pr√°cticos
 
-## =À Contenido del MÛdulo
+## Contenido del M√≥dulo
 
-1. [Proyecto 1: GeneraciÛn de Texto con APIs](#proyecto-1-generaciÛn-de-texto-con-apis)
+1. [Proyecto 1: Generaci√≥n de Texto con APIs](#proyecto-1-generaci√≥n-de-texto-con-apis)
 2. [Proyecto 2: Chatbot Personalizado](#proyecto-2-chatbot-personalizado)
-3. [Proyecto 3: GeneraciÛn de Im·genes](#proyecto-3-generaciÛn-de-im·genes)
+3. [Proyecto 3: Generaci√≥n de Im√°genes](#proyecto-3-generaci√≥n-de-im√°genes)
 4. [Proyecto 4: RAG - Retrieval Augmented Generation](#proyecto-4-rag---retrieval-augmented-generation)
 5. [Proyecto 5: Fine-tuning de Modelos](#proyecto-5-fine-tuning-de-modelos)
-6. [Proyecto 6: AplicaciÛn Web con IA](#proyecto-6-aplicaciÛn-web-con-ia)
+6. [Proyecto 6: Aplicaci√≥n Web con IA](#proyecto-6-aplicaci√≥n-web-con-ia)
 
 ---
 
-## Proyecto 1: GeneraciÛn de Texto con APIs
+## Proyecto 1: Generaci√≥n de Texto con APIs
 
 ### Objetivo
 Crear un generador de contenido usando la API de OpenAI.
@@ -21,14 +21,14 @@ Crear un generador de contenido usando la API de OpenAI.
 pip install openai python-dotenv
 ```
 
-### Paso 1: ConfiguraciÛn
+### Paso 1: Configuraci√≥n
 
 Crea un archivo `.env`:
 ```
 OPENAI_API_KEY=tu-api-key-aqui
 ```
 
-### Paso 2: CÛdigo Base
+### Paso 2: C√≥digo Base
 
 ```python
 # text_generator.py
@@ -45,10 +45,10 @@ def generar_texto(prompt, modelo="gpt-3.5-turbo", temperatura=0.7, max_tokens=50
     Genera texto usando la API de OpenAI.
 
     Args:
-        prompt (str): El prompt o instrucciÛn
+        prompt (str): El prompt o instrucci√≥n
         modelo (str): Modelo a usar
         temperatura (float): Creatividad (0-2)
-        max_tokens (int): Longitud m·xima de respuesta
+        max_tokens (int): Longitud m√°xima de respuesta
 
     Returns:
         str: Texto generado
@@ -57,7 +57,7 @@ def generar_texto(prompt, modelo="gpt-3.5-turbo", temperatura=0.7, max_tokens=50
         response = openai.ChatCompletion.create(
             model=modelo,
             messages=[
-                {"role": "system", "content": "Eres un asistente ˙til y creativo."},
+                {"role": "system", "content": "Eres un asistente √∫til y creativo."},
                 {"role": "user", "content": prompt}
             ],
             temperature=temperatura,
@@ -71,18 +71,18 @@ def generar_texto(prompt, modelo="gpt-3.5-turbo", temperatura=0.7, max_tokens=50
 
 # Ejemplo de uso
 if __name__ == "__main__":
-    # GeneraciÛn de blog post
+    # Generaci√≥n de blog post
     prompt = """
-    Escribe un artÌculo de blog de 300 palabras sobre
+    Escribe un art√≠culo de blog de 300 palabras sobre
     'El impacto de la IA Generativa en el marketing digital'.
-    Incluye introducciÛn, 3 puntos principales y conclusiÛn.
+    Incluye introducci√≥n, 3 puntos principales y conclusi√≥n.
     """
 
     resultado = generar_texto(prompt, temperatura=0.7)
     print(resultado)
 ```
 
-### Paso 3: Casos de Uso EspecÌficos
+### Paso 3: Casos de Uso Espec√≠ficos
 
 #### A) Generador de Emails
 
@@ -95,8 +95,8 @@ def generar_email(tema, tono="profesional", destinatario="cliente"):
 
     Estructura:
     - Saludo apropiado
-    - Cuerpo del mensaje (3-4 p·rrafos)
-    - Llamado a la acciÛn
+    - Cuerpo del mensaje (3-4 p√°rrafos)
+    - Llamado a la acci√≥n
     - Despedida
     """
 
@@ -111,17 +111,17 @@ email = generar_email(
 print(email)
 ```
 
-#### B) Generador de CÛdigo
+#### B) Generador de C√≥digo
 
 ```python
 def generar_codigo(descripcion, lenguaje="Python"):
-    """Genera cÛdigo seg˙n descripciÛn."""
+    """Genera c√≥digo seg√∫n descripci√≥n."""
 
     prompt = f"""
-    Genera cÛdigo en {lenguaje} para: {descripcion}
+    Genera c√≥digo en {lenguaje} para: {descripcion}
 
     Incluye:
-    - CÛdigo completo y funcional
+    - C√≥digo completo y funcional
     - Comentarios explicativos
     - Manejo de errores
     - Ejemplo de uso
@@ -131,7 +131,7 @@ def generar_codigo(descripcion, lenguaje="Python"):
 
 # Uso
 codigo = generar_codigo(
-    "funciÛn que valida y formatea direcciones de email"
+    "funci√≥n que valida y formatea direcciones de email"
 )
 print(codigo)
 ```
@@ -151,8 +151,8 @@ def traducir_con_contexto(texto, idioma_origen, idioma_destino, contexto=""):
     {texto}
 
     Proporciona:
-    1. TraducciÛn directa
-    2. TraducciÛn adaptada culturalmente
+    1. Traducci√≥n directa
+    2. Traducci√≥n adaptada culturalmente
     3. Notas sobre diferencias importantes
     """
 
@@ -161,9 +161,9 @@ def traducir_con_contexto(texto, idioma_origen, idioma_destino, contexto=""):
 # Uso
 traduccion = traducir_con_contexto(
     texto="This AI model is killing it!",
-    idioma_origen="inglÈs",
-    idioma_destino="espaÒol",
-    contexto="ExpresiÛn coloquial en tecnologÌa"
+    idioma_origen="ingl√©s",
+    idioma_destino="espa√±ol",
+    contexto="Expresi√≥n coloquial en tecnolog√≠a"
 )
 print(traduccion)
 ```
@@ -177,7 +177,7 @@ import time
 from openai.error import RateLimitError, APIError
 
 def generar_texto_robusto(prompt, max_reintentos=3):
-    """Genera texto con reintentos autom·ticos."""
+    """Genera texto con reintentos autom√°ticos."""
 
     for intento in range(max_reintentos):
         try:
@@ -204,9 +204,9 @@ def generar_texto_robusto(prompt, max_reintentos=3):
 ## Proyecto 2: Chatbot Personalizado
 
 ### Objetivo
-Crear un chatbot con memoria que mantiene contexto de la conversaciÛn.
+Crear un chatbot con memoria que mantiene contexto de la conversaci√≥n.
 
-### CÛdigo Completo
+### C√≥digo Completo
 
 ```python
 # chatbot.py
@@ -228,9 +228,9 @@ class Chatbot:
         self.sistema_prompt = f"""
         Eres {nombre}, un asistente {personalidad}.
 
-        CaracterÌsticas:
+        Caracter√≠sticas:
         - Respondes de manera clara y concisa
-        - Mantienes el contexto de la conversaciÛn
+        - Mantienes el contexto de la conversaci√≥n
         - Admites cuando no sabes algo
         - Eres respetuoso y profesional
         """
@@ -274,13 +274,13 @@ class Chatbot:
             return f"Error: {str(e)}"
 
     def limpiar_historial(self):
-        """Reinicia la conversaciÛn manteniendo el sistema prompt."""
+        """Reinicia la conversaci√≥n manteniendo el sistema prompt."""
         self.historial = [self.historial[0]]  # Solo mantener sistema
 
     def guardar_conversacion(self, archivo="conversacion.txt"):
-        """Guarda el historial de conversaciÛn."""
+        """Guarda el historial de conversaci√≥n."""
         with open(archivo, "w", encoding="utf-8") as f:
-            f.write(f"ConversaciÛn con {self.nombre}\n")
+            f.write(f"Conversaci√≥n con {self.nombre}\n")
             f.write(f"Fecha: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             f.write("="*50 + "\n\n")
 
@@ -288,41 +288,41 @@ class Chatbot:
                 rol = "Usuario" if msg["role"] == "user" else self.nombre
                 f.write(f"{rol}: {msg['content']}\n\n")
 
-# Interfaz de lÌnea de comandos
+# Interfaz de l√≠nea de comandos
 def main():
     """Ejecuta el chatbot en modo interactivo."""
 
     print("=== Chatbot IA ===")
     print("Escribe 'salir' para terminar")
-    print("Escribe 'limpiar' para reiniciar conversaciÛn")
-    print("Escribe 'guardar' para guardar la conversaciÛn\n")
+    print("Escribe 'limpiar' para reiniciar conversaci√≥n")
+    print("Escribe 'guardar' para guardar la conversaci√≥n\n")
 
     # Crear chatbot
     bot = Chatbot(
         nombre="Claude Junior",
-        personalidad="experto en IA y programaciÛn"
+        personalidad="experto en IA y programaci√≥n"
     )
 
     while True:
         # Obtener input del usuario
-        mensaje = input("T˙: ").strip()
+        mensaje = input("T√∫: ").strip()
 
         if not mensaje:
             continue
 
         # Comandos especiales
         if mensaje.lower() == "salir":
-            print("°Hasta luego!")
+            print("¬°Hasta luego!")
             break
 
         elif mensaje.lower() == "limpiar":
             bot.limpiar_historial()
-            print("ConversaciÛn reiniciada.\n")
+            print("Conversaci√≥n reiniciada.\n")
             continue
 
         elif mensaje.lower() == "guardar":
             bot.guardar_conversacion()
-            print("ConversaciÛn guardada.\n")
+            print("Conversaci√≥n guardada.\n")
             continue
 
         # Generar respuesta
@@ -333,7 +333,7 @@ if __name__ == "__main__":
     main()
 ```
 
-### ExtensiÛn: Chatbot con Funciones
+### Extensi√≥n: Chatbot con Funciones
 
 ```python
 import json
@@ -351,25 +351,25 @@ class ChatbotAvanzado(Chatbot):
 
     def obtener_clima(self, ciudad):
         """Simula obtener el clima (placeholder)."""
-        return f"El clima en {ciudad} es soleado, 22∞C"
+        return f"El clima en {ciudad} es soleado, 22¬∞C"
 
     def calcular(self, expresion):
-        """Eval˙a expresiÛn matem·tica."""
+        """Eval√∫a expresi√≥n matem√°tica."""
         try:
             resultado = eval(expresion)
             return f"Resultado: {resultado}"
         except:
-            return "Error en el c·lculo"
+            return "Error en el c√°lculo"
 
     def buscar_web(self, consulta):
-        """Simula b˙squeda web (placeholder)."""
+        """Simula b√∫squeda web (placeholder)."""
         return f"Resultados para '{consulta}': [simulado]"
 
     def chat_con_funciones(self, mensaje):
         """Chat que puede llamar funciones."""
 
-        # AquÌ puedes implementar lÛgica para detectar
-        # cu·ndo llamar funciones bas·ndote en el mensaje
+        # Aqu√≠ puedes implementar l√≥gica para detectar
+        # cu√°ndo llamar funciones bas√°ndote en el mensaje
 
         # Por simplicidad, llamamos chat normal
         return self.chat(mensaje)
@@ -377,12 +377,12 @@ class ChatbotAvanzado(Chatbot):
 
 ---
 
-## Proyecto 3: GeneraciÛn de Im·genes
+## Proyecto 3: Generaci√≥n de Im√°genes
 
 ### Objetivo
-Generar im·genes usando diferentes APIs.
+Generar im√°genes usando diferentes APIs.
 
-### OpciÛn A: DALL-E (OpenAI)
+### Opci√≥n A: DALL-E (OpenAI)
 
 ```python
 # image_generator.py
@@ -396,23 +396,23 @@ from io import BytesIO
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-def generar_imagen_dalle(prompt, n=1, tamaÒo="1024x1024"):
+def generar_imagen_dalle(prompt, n=1, tama√±o="1024x1024"):
     """
     Genera imagen usando DALL-E.
 
     Args:
-        prompt (str): DescripciÛn de la imagen
-        n (int): N˙mero de im·genes
-        tamaÒo (str): TamaÒo (256x256, 512x512, 1024x1024)
+        prompt (str): Descripci√≥n de la imagen
+        n (int): N√∫mero de im√°genes
+        tama√±o (str): Tama√±o (256x256, 512x512, 1024x1024)
 
     Returns:
-        list: URLs de im·genes generadas
+        list: URLs de im√°genes generadas
     """
     try:
         response = openai.Image.create(
             prompt=prompt,
             n=n,
-            size=tamaÒo
+            size=tama√±o
         )
 
         urls = [img['url'] for img in response['data']]
@@ -453,7 +453,7 @@ if __name__ == "__main__":
         descargar_y_mostrar(urls[0])
 ```
 
-### OpciÛn B: Stable Diffusion Local
+### Opci√≥n B: Stable Diffusion Local
 
 ```python
 # stable_diffusion_local.py
@@ -481,7 +481,7 @@ def generar_imagen_sd(pipe, prompt, negative_prompt="", steps=50, guidance=7.5):
 
     Args:
         pipe: Pipeline de Stable Diffusion
-        prompt (str): DescripciÛn de lo que quieres
+        prompt (str): Descripci√≥n de lo que quieres
         negative_prompt (str): Lo que NO quieres
         steps (int): Pasos de denoising
         guidance (float): Adherencia al prompt
@@ -537,15 +537,15 @@ def generar_variaciones_dalle(imagen_path, n=3):
 ## Proyecto 4: RAG - Retrieval Augmented Generation
 
 ### Objetivo
-Crear un sistema que responde preguntas bas·ndose en tus propios documentos.
+Crear un sistema que responde preguntas bas√°ndose en tus propios documentos.
 
-### InstalaciÛn
+### Instalaci√≥n
 
 ```bash
 pip install langchain openai chromadb pypdf tiktoken
 ```
 
-### CÛdigo Completo
+### C√≥digo Completo
 
 ```python
 # rag_system.py
@@ -643,14 +643,14 @@ class SistemaRAG:
         # Template de prompt
         template = """
         Usa el siguiente contexto para responder la pregunta al final.
-        Si no sabes la respuesta, di que no lo sabes, NO inventes informaciÛn.
-        Usa m·ximo 3 oraciones y mantÈn la respuesta concisa.
+        Si no sabes la respuesta, di que no lo sabes, NO inventes informaci√≥n.
+        Usa m√°ximo 3 oraciones y mant√©n la respuesta concisa.
 
         Contexto: {context}
 
         Pregunta: {question}
 
-        Respuesta ˙til:
+        Respuesta √∫til:
         """
 
         PROMPT = PromptTemplate(
@@ -745,7 +745,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 
 class SistemaRAGConversacional(SistemaRAG):
-    """RAG que mantiene historial de conversaciÛn."""
+    """RAG que mantiene historial de conversaci√≥n."""
 
     def crear_qa_chain(self):
         """Crea cadena conversacional."""
@@ -781,7 +781,7 @@ class SistemaRAGConversacional(SistemaRAG):
 ## Proyecto 5: Fine-tuning de Modelos
 
 ### Objetivo
-Ajustar un modelo preentrenado para una tarea especÌfica.
+Ajustar un modelo preentrenado para una tarea espec√≠fica.
 
 ### Fine-tuning de GPT-3.5 (OpenAI)
 
@@ -815,10 +815,10 @@ def preparar_datos_entrenamiento(ejemplos, archivo_salida="training_data.jsonl")
 
     print(f"Datos guardados en {archivo_salida}")
 
-# Ejemplo: Crear dataset para clasificaciÛn de sentimientos
+# Ejemplo: Crear dataset para clasificaci√≥n de sentimientos
 ejemplos_entrenamiento = [
     {
-        "prompt": "Este producto es increÌble, lo recomiendo totalmente",
+        "prompt": "Este producto es incre√≠ble, lo recomiendo totalmente",
         "completion": "Positivo"
     },
     {
@@ -829,7 +829,7 @@ ejemplos_entrenamiento = [
         "prompt": "Es un producto normal, nada especial",
         "completion": "Neutral"
     },
-    # ... m·s ejemplos (mÌnimo 10, recomendado 50+)
+    # ... m√°s ejemplos (m√≠nimo 10, recomendado 50+)
 ]
 
 # Preparar datos
@@ -889,7 +889,7 @@ if __name__ == "__main__":
     job_id = iniciar_fine_tuning(file_id)
 
     # 4. Esperar (puede tardar minutos u horas)
-    # Verificar estado periÛdicamente
+    # Verificar estado peri√≥dicamente
     # estado = verificar_estado(job_id)
 
     # 5. Una vez completado, usar modelo
@@ -910,7 +910,7 @@ from transformers import (
 from datasets import load_dataset
 
 def fine_tune_clasificador():
-    """Fine-tuning de modelo para clasificaciÛn."""
+    """Fine-tuning de modelo para clasificaci√≥n."""
 
     # 1. Cargar modelo base
     model_name = "distilbert-base-uncased"
@@ -970,18 +970,18 @@ if __name__ == "__main__":
 
 ---
 
-## Proyecto 6: AplicaciÛn Web con IA
+## Proyecto 6: Aplicaci√≥n Web con IA
 
 ### Objetivo
-Crear una aplicaciÛn web interactiva con Streamlit.
+Crear una aplicaci√≥n web interactiva con Streamlit.
 
-### InstalaciÛn
+### Instalaci√≥n
 
 ```bash
 pip install streamlit openai python-dotenv
 ```
 
-### CÛdigo Completo
+### C√≥digo Completo
 
 ```python
 # app.py
@@ -993,14 +993,14 @@ from dotenv import load_dotenv
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# ConfiguraciÛn de p·gina
+# Configuraci√≥n de p√°gina
 st.set_page_config(
     page_title="Asistente IA Multiherramienta",
     page_icon=">",
     layout="wide"
 )
 
-# TÌtulo
+# T√≠tulo
 st.title("> Asistente IA Multiherramienta")
 st.markdown("---")
 
@@ -1008,11 +1008,11 @@ st.markdown("---")
 st.sidebar.title("Herramientas")
 opcion = st.sidebar.radio(
     "Selecciona una herramienta:",
-    ["Chat", "Generador de Texto", "Resumen", "Traductor", "An·lisis de Sentimiento"]
+    ["Chat", "Generador de Texto", "Resumen", "Traductor", "An√°lisis de Sentimiento"]
 )
 
-# FunciÛn auxiliar para llamar a OpenAI
-def llamar_gpt(prompt, system_message="Eres un asistente ˙til.", temp=0.7):
+# Funci√≥n auxiliar para llamar a OpenAI
+def llamar_gpt(prompt, system_message="Eres un asistente √∫til.", temp=0.7):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
@@ -1025,7 +1025,7 @@ def llamar_gpt(prompt, system_message="Eres un asistente ˙til.", temp=0.7):
 
 # === HERRAMIENTA 1: CHAT ===
 if opcion == "Chat":
-    st.header("=¨ Chat con IA")
+    st.header("=¬¨ Chat con IA")
 
     # Inicializar historial en session_state
     if "messages" not in st.session_state:
@@ -1055,17 +1055,18 @@ if opcion == "Chat":
 
 # === HERRAMIENTA 2: GENERADOR DE TEXTO ===
 elif opcion == "Generador de Texto":
-    st.header(" Generador de Texto")
+    st.header("
+ Generador de Texto")
 
     col1, col2 = st.columns([2, 1])
 
     with col1:
         tipo_texto = st.selectbox(
             "Tipo de contenido:",
-            ["Blog Post", "Email", "PublicaciÛn Redes Sociales", "DescripciÛn de Producto"]
+            ["Blog Post", "Email", "Publicaci√≥n Redes Sociales", "Descripci√≥n de Producto"]
         )
 
-        tema = st.text_input("Tema o descripciÛn:")
+        tema = st.text_input("Tema o descripci√≥n:")
         tono = st.select_slider("Tono:", ["Formal", "Neutral", "Casual", "Entusiasta"])
 
     with col2:
@@ -1089,16 +1090,16 @@ elif opcion == "Generador de Texto":
                 st.markdown("### Resultado:")
                 st.write(resultado)
 
-                # BotÛn para copiar
+                # Bot√≥n para copiar
                 st.code(resultado, language=None)
         else:
             st.warning("Por favor ingresa un tema")
 
 # === HERRAMIENTA 3: RESUMEN ===
 elif opcion == "Resumen":
-    st.header("=› Resumidor de Texto")
+    st.header("=√ù Resumidor de Texto")
 
-    texto_largo = st.text_area("Pega aquÌ el texto a resumir:", height=300)
+    texto_largo = st.text_area("Pega aqu√≠ el texto a resumir:", height=300)
 
     col1, col2 = st.columns(2)
     with col1:
@@ -1107,14 +1108,14 @@ elif opcion == "Resumen":
             ["Muy breve", "Breve", "Medio", "Detallado"]
         )
     with col2:
-        formato = st.radio("Formato:", ["P·rrafo", "Puntos clave"])
+        formato = st.radio("Formato:", ["P√°rrafo", "Puntos clave"])
 
     if st.button("Resumir", type="primary"):
         if texto_largo:
             with st.spinner("Analizando y resumiendo..."):
                 prompt = f"""
                 Resume el siguiente texto de forma {longitud_resumen.lower()}.
-                Formato: {'Lista de puntos clave' if formato == 'Puntos clave' else 'P·rrafo cohesivo'}
+                Formato: {'Lista de puntos clave' if formato == 'Puntos clave' else 'P√°rrafo cohesivo'}
 
                 Texto:
                 {texto_largo}
@@ -1125,11 +1126,11 @@ elif opcion == "Resumen":
                 st.markdown("### Resumen:")
                 st.info(resumen)
 
-                # EstadÌsticas
+                # Estad√≠sticas
                 col1, col2, col3 = st.columns(3)
                 col1.metric("Palabras originales", len(texto_largo.split()))
                 col2.metric("Palabras resumen", len(resumen.split()))
-                col3.metric("ReducciÛn", f"{int((1 - len(resumen.split())/len(texto_largo.split()))*100)}%")
+                col3.metric("Reducci√≥n", f"{int((1 - len(resumen.split())/len(texto_largo.split()))*100)}%")
         else:
             st.warning("Por favor ingresa un texto")
 
@@ -1141,19 +1142,19 @@ elif opcion == "Traductor":
 
     with col1:
         st.subheader("Texto Original")
-        idioma_origen = st.selectbox("Idioma origen:", ["EspaÒol", "InglÈs", "FrancÈs", "Alem·n", "PortuguÈs"])
+        idioma_origen = st.selectbox("Idioma origen:", ["Espa√±ol", "Ingl√©s", "Franc√©s", "Alem√°n", "Portugu√©s"])
         texto_origen = st.text_area("Texto a traducir:", height=200)
 
     with col2:
-        st.subheader("TraducciÛn")
-        idioma_destino = st.selectbox("Idioma destino:", ["InglÈs", "EspaÒol", "FrancÈs", "Alem·n", "PortuguÈs"])
+        st.subheader("Traducci√≥n")
+        idioma_destino = st.selectbox("Idioma destino:", ["Ingl√©s", "Espa√±ol", "Franc√©s", "Alem√°n", "Portugu√©s"])
 
     if st.button("Traducir", type="primary"):
         if texto_origen:
             with st.spinner("Traduciendo..."):
                 prompt = f"""
                 Traduce el siguiente texto de {idioma_origen} a {idioma_destino}.
-                MantÈn el tono y estilo del original.
+                Mant√©n el tono y estilo del original.
 
                 Texto:
                 {texto_origen}
@@ -1166,10 +1167,10 @@ elif opcion == "Traductor":
         else:
             st.warning("Por favor ingresa un texto")
 
-# === HERRAMIENTA 5: AN¡LISIS DE SENTIMIENTO ===
-elif opcion == "An·lisis de Sentimiento":
+# === HERRAMIENTA 5: AN√ÅLISIS DE SENTIMIENTO ===
+elif opcion == "An√°lisis de Sentimiento":
     st.header("=
- An·lisis de Sentimiento")
+ An√°lisis de Sentimiento")
 
     texto_analizar = st.text_area("Texto a analizar:", height=150)
 
@@ -1181,7 +1182,7 @@ elif opcion == "An·lisis de Sentimiento":
 
                 Proporciona:
                 1. Sentimiento general (Positivo/Negativo/Neutral)
-                2. PuntuaciÛn de 0-10
+                2. Puntuaci√≥n de 0-10
                 3. Emociones detectadas
                 4. Tono del mensaje
 
@@ -1193,7 +1194,7 @@ elif opcion == "An·lisis de Sentimiento":
 
                 analisis = llamar_gpt(prompt, temp=0.3)
 
-                st.markdown("### An·lisis:")
+                st.markdown("### An√°lisis:")
                 st.success(analisis)
         else:
             st.warning("Por favor ingresa un texto")
@@ -1203,7 +1204,7 @@ st.markdown("---")
 st.markdown("Desarrollado con d usando Streamlit y OpenAI")
 ```
 
-### Ejecutar la AplicaciÛn
+### Ejecutar la Aplicaci√≥n
 
 ```bash
 streamlit run app.py
@@ -1211,39 +1212,39 @@ streamlit run app.py
 
 ---
 
-## <Ø Resumen del MÛdulo
+##  Resumen del M√≥dulo
 
-En este mÛdulo has creado:
+En este m√≥dulo has creado:
 
  **Generador de texto** con OpenAI API
  **Chatbot** con memoria y personalidad
- **Generador de im·genes** con DALL-E y Stable Diffusion
+ **Generador de im√°genes** con DALL-E y Stable Diffusion
  **Sistema RAG** para Q&A sobre documentos propios
- **Fine-tuning** de modelos para tareas especÌficas
- **AplicaciÛn web** completa con m˙ltiples herramientas
+ **Fine-tuning** de modelos para tareas espec√≠ficas
+ **Aplicaci√≥n web** completa con m√∫ltiples herramientas
 
 ---
 
-## =⁄ Recursos del MÛdulo
+## Recursos del M√≥dulo
 
-Todos los cÛdigos est·n disponibles en la carpeta `/ejemplos` del repositorio.
+Todos los c√≥digos est√°n disponibles en la carpeta `/ejemplos` del repositorio.
 
 ---
 
-##  Ejercicios Propuestos
+## Ejercicios Propuestos
 
 1. Personaliza el chatbot con tu propia personalidad
-2. Crea un RAG sobre documentaciÛn tÈcnica de tu interÈs
-3. Agrega una nueva herramienta a la aplicaciÛn web
-4. Experimenta con diferentes temperaturas y par·metros
-5. Combina m˙ltiples herramientas en un workflow
+2. Crea un RAG sobre documentaci√≥n t√©cnica de tu inter√©s
+3. Agrega una nueva herramienta a la aplicaci√≥n web
+4. Experimenta con diferentes temperaturas y par√°metros
+5. Combina m√∫ltiples herramientas en un workflow
 
 ---
 
-## ° PrÛximo MÛdulo
+## ¬° Pr√≥ximo M√≥dulo
 
-Ahora explorar·s **aplicaciones reales** de IA Generativa en diferentes industrias.
+Ahora explorar√°s **aplicaciones reales** de IA Generativa en diferentes industrias.
 
-=I [MÛdulo 7: Aplicaciones en la Industria](../modulo7/README.md)
+[M√≥dulo 7: Aplicaciones en la Industria](../modulo7/README.md)
 
-[ Volver al MÛdulo 5](../modulo5/README.md) | [ Volver al inicio](../../README.md)
+[ Volver al M√≥dulo 5](../modulo5/README.md) | [ Volver al inicio](../../README.md)
